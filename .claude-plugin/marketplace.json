@@ -3374,6 +3374,32 @@
       "path": "plugins/kordoc",
       "ref": "main"
     }
+  },
+  {
+    "name": "show-receipts",
+    "description": "Stop hook for Claude Code and Codex. When the agent ends with \"all tests pass\", \"the build succeeds\" or \"lint is clean\", it checks the session transcript for a matching command that ran after the last edit and exited 0, and blocks the stop if there isn't one. One file of standard-library Python, no LLM, no network.",
+    "version": "0.3.0",
+    "author": {
+      "name": "Tanbir Hossain Ramim",
+      "url": "https://github.com/TanbirRamim"
+    },
+    "homepage": "https://github.com/TanbirRamim/show-receipts",
+    "repository": "https://github.com/TanbirRamim/show-receipts",
+    "license": "MIT",
+    "keywords": [
+      "hooks",
+      "stop-hook",
+      "testing",
+      "verification",
+      "codex"
+    ],
+    "category": "hooks",
+    "source": {
+      "source": "github",
+      "repo": "TanbirRamim/show-receipts",
+      "ref": "v0.3.0",
+      "sha": "1a7dbb2a0c007230de7c5ee03fdd51c94fafc028"
+    }
   }
   ]
 }
